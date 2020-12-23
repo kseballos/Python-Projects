@@ -281,7 +281,7 @@ updatebtn.grid(row=10,column=1,ipadx=25, pady=10,sticky=E)
 #button query
 querybtn = Button(frameinput, text="Retrieve Data", command=query)
 querybtn.grid(row=8, column=0, columnspan=2,pady=10,ipadx=108)
-    
+#ADDED TEST COMMENT FOR SERVICENOW INTEGRATION 
 #commit changes
 conn.commit()
 
